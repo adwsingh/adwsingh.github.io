@@ -1,0 +1,38 @@
+baseURL: 'https://adwsingh.com'
+languageCode: en-us
+title: adwsingh
+theme: PaperMod
+enableRobotsTXT: true
+googleAnalytics: G-L7XXS6WEC2
+disqusShortname: adwsingh-com
+params:
+  hideFooter: true
+  info:
+    env: production
+    title: adwsingh
+    description: "Adwait's corner of the internet"
+    keywords: [ Blog ]
+    author: Me
+    # author: ["Me", "You"] # multiple authors
+    DateFormat: "January 2, 2006"
+    defaultTheme: auto # dark, light
+    disableThemeToggle: false
+    ShowReadingTime: true
+    ShowShareButtons: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: false
+    ShowWordCount: true
+    ShowRssButtonInSectionTermList: true
+    UseHugoToc: false
+    disableSpecial1stPost: false
+    disableScrollToTop: false
+    comments: false
+    hidemeta: false
+    hideSummary: false
+    showtoc: false
+    tocopen: false
+    profileMode:
+      enabled: true
+taxonomies:
+  tag: tags
