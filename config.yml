@@ -1,7 +1,7 @@
 baseURL: 'https://adwsingh.com'
 languageCode: en-us
 title: adwsingh
-theme: PaperMod
+theme: PaperModX
 enableRobotsTXT: true
 googleAnalytics: G-L7XXS6WEC2
 disqusShortname: adwsingh-com
@@ -10,6 +10,7 @@ params:
     Title: "Hi there!"
     Content: "Adwait's corner of the internet."
   hideFooter: true
+  EnableInstantClick: true
   info:
     env: production
     title: adwsingh
@@ -37,9 +38,9 @@ params:
     tocopen: false
 
   socialIcons:
-    - name: "github"
+    - name: "github-simple"
       url: "https://github.com/adwsingh"
-    - name: "linkedin"
+    - name: "linkedin-simple"
       url: "https://linkedin.com/in/adwsingh"
 taxonomies:
   tag: tags
