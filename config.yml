@@ -6,6 +6,9 @@ enableRobotsTXT: true
 googleAnalytics: G-L7XXS6WEC2
 disqusShortname: adwsingh-com
 params:
+  homeInfoParams:
+    Title: "Hi there!"
+    Content: "Adwait's corner of the internet."
   hideFooter: true
   info:
     env: production
@@ -32,7 +35,11 @@ params:
     hideSummary: false
     showtoc: false
     tocopen: false
-    profileMode:
-      enabled: true
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/adwsingh"
+    - name: "linkedin"
+      url: "https://linkedin.com/in/adwsingh"
 taxonomies:
   tag: tags
